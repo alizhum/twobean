@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My account</title>
+    <link rel="stylesheet" href="css/libs/normalize.css">
+    <link rel="stylesheet" href="css/libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/libs/fancybox.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header id="header" class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="index.html" class="logo header__logo">
+                <img src="img/logo.png" alt="" class="logo__img header__logo-img">
+            </a>
+            <ul class="social header__social header__social--mobile">
+                <li class="social__item header__social-item">
+                    <a class="social__link header__social-link" href="#">
+                        Instagram
+                        <svg>
+                            <use href="/img/icons/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item header__social-item">
+                    <a class="social__link header__social-link" href="#">
+                        Facebook
+                        <svg>
+                            <use href="/img/icons/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <div id="header-mobile" class="header__mobile">
+                <nav class="nav header__nav">
+                    <ul class="nav__list header__nav-list">
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="catalog.html">
+                                Products
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="business.html">
+                                Business
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="events.html">
+                                Events
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="about.html">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="social header__social">
+                    <li class="social__item header__social-item">
+                        <a class="social__link header__social-link" href="#">
+                            Instagram
+                            <svg>
+                                <use href="/img/icons/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item header__social-item">
+                        <a class="social__link header__social-link" href="#">
+                            Facebook
+                            <svg>
+                                <use href="/img/icons/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="header__right">
+                    <a href="#" class="header__profile header__option">
+                        Account
+                        <svg>
+                            <use href="/img/icons/sprite.svg#account"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="header__cart header__option twobean-btn twobean-btn--roast-dark">
+                        Cart
+                        <svg>
+                            <use href="/img/icons/sprite.svg#cart"></use>
+                        </svg>
+                        <!-- <span class="header__cart-count">
+                            1
+                        </span> -->
+                    </a>
+                </div>
+            </div>
+            <button id="nav-toggle" class="btn header__nav-toggle show-sm">
+                <span class="header__nav-toggle-item"></span>
+                <span class="header__nav-toggle-item"></span>
+                <span class="header__nav-toggle-item"></span>
+            </button>
+        </div>
+    </div>
+ 
+</header>
+    <main class="content" id="content">
+        <section class="section section-gap-bottom section-gap-small-top account">
+            <div class="container">
+                <div class="section__header section__header--center">
+                    <h2 class="section__title">
+                        My account
+                    </h2>
+                </div>
+                <div class="account__inner">
+                    <form class="form account__form">
+                        <div class="account__form-block">
+                            <div class="account__form-titles">
+                                <span class="account__form-title account__form-title--current">
+                                    personal
+                                </span>
+                                <span class="account__form-title">
+                                    adress
+                                </span>
+                                <span class="account__form-title">
+                                    contacts
+                                </span>
+                            </div>
+                            <div class="account__form-fields">
+                                <div class="form__group form__group--half">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            first name
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            last name
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            company name (optional)
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="account__form-block">
+                            <div class="account__form-titles">
+                                <span class="account__form-title">
+                                    personal
+                                </span>
+                                <span class="account__form-title account__form-title--current">
+                                    adress
+                                </span>
+                                <span class="account__form-title">
+                                    contacts
+                                </span>
+                            </div>
+                            <div class="account__form-fields">
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            country, region
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            house number and street name
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            apartments, suit, unit, room 
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            town, city
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            state
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            zip-code
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="account__form-block">
+                            <div class="account__form-titles">
+                                <span class="account__form-title">
+                                    personal
+                                </span>
+                                <span class="account__form-title">
+                                    adress
+                                </span>
+                                <span class="account__form-title account__form-title--current">
+                                    contacts
+                                </span>
+                            </div>
+                            <div class="account__form-fields">
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            email
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="email" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            phone
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="tel" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form__group">
+                                    <label class="form__field">
+                                        <span class="form__field-label form__field-label--center">
+                                            comments
+                                        </span>
+                                        <div class="form__field-input-wrap">
+                                            <input type="text" class="form__field-input">
+                                            <svg class="form__field-icon">
+                                                <use href="/img/icons/sprite.svg#settings"></use>
+                                            </svg>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="section section-gap-bottom current-order">
+            <div class="container">
+                <div class="section__header section__header--center">
+                    <h2 class="section__title">
+                        Current order
+                    </h2>
+                </div>
+                <div class="current-order__inner">
+                    <div class="order-card current-order__card">
+                        <div class="current-order__card-left">
+                            <div class="order-card__header current-order__card-header">
+                                <div class="order-card__title">
+                                    order #12345
+                                </div>
+                            </div>
+                            <ul class="order-card__meta">
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order delivery date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        tracking number
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1234-2345-7645
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        adress
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1311 MERRIAM AVE BRONX NY 10452-2656 USA
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="order-card__total current-order__card-total">
+                            <div class="order-card__total-title">
+                                List
+                            </div>
+                            <ul class="order-card__products">
+                                <li class="order-card__product-item">
+                                    <span class="order-card__product-item-name">
+                                        Drip coffee light
+                                    </span>
+                                    <span class="order-card__product-item-qty">
+                                        1 pcs
+                                    </span>
+                                </li>
+                                <li class="order-card__product-item">
+                                    <span class="order-card__product-item-name">
+                                        Drip coffee medium
+                                    </span>
+                                    <span class="order-card__product-item-qty">
+                                        2 pcs
+                                    </span>
+                                </li>
+                                <li class="order-card__product-item">
+                                    <span class="order-card__product-item-name">
+                                        Drip coffee medium dark
+                                    </span>
+                                    <span class="order-card__product-item-qty">
+                                        1 pcs
+                                    </span>
+                                </li>
+                                <li class="order-card__product-item">
+                                    <span class="order-card__product-item-name">
+                                        Drip coffee medium dark
+                                    </span>
+                                    <span class="order-card__product-item-qty">
+                                        1 pcs
+                                    </span>
+                                </li>
+                                <li class="order-card__product-item">
+                                    <span class="order-card__product-item-name">
+                                        Drip coffee medium dark
+                                    </span>
+                                    <span class="order-card__product-item-qty">
+                                        1 pcs
+                                    </span>
+                                </li>
+                                <li class="order-card__product-item">
+                                    <span class="order-card__product-item-name">
+                                        Drip coffee medium dark
+                                    </span>
+                                    <span class="order-card__product-item-qty">
+                                        1 pcs
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="order-card__subtotal">
+                                <span>total</span>
+                                <span>54.96$</span>
+                            </div>
+                        </div>
+                        <div class="order-card__gallery current-order__card-gallery">
+                            <img src="img/product-1.jpg" alt="" class="order-card__gallery-img">
+                            <img src="img/product-2.jpg" alt="" class="order-card__gallery-img">
+                            <img src="img/product-3.jpg" alt="" class="order-card__gallery-img">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-gap-bottom orders">
+            <div class="container">
+                <div class="section__header section__header--center">
+                    <h2 class="section__title">
+                        Previous orders
+                    </h2>
+                </div>
+                <div class="orders__inner">
+                    <div class="order-card order-card--toggle order-card--roast-light">
+                        <button class="btn order-card__header order-card__toggle">
+                            <span class="btn order-card__toggle-icon">
+                                Toggle
+                            </span>
+                            <div class="order-card__title">
+                                order #12345
+                            </div>
+                        </button>
+                        <div class="order-card__info">
+                            <ul class="order-card__meta">
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order delivery date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        tracking number
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1234-2345-7645
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        adress
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1311 MERRIAM AVE BRONX NY 10452-2656 USA
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="order-card__total">
+                                <div class="order-card__total-title">
+                                    List
+                                </div>
+                                <ul class="order-card__products">
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee light
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            2 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div class="order-card__subtotal">
+                                    <span>total</span>
+                                    <span>54.96$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-card__footer">
+                            <a href="#" class="twobean-btn order-card__reorder">
+                                Reorder
+                                <svg>
+                                    <use href="/img/icons/sprite.svg#arrow-right"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="order-card__feedback">
+                                Leave feedback
+                            </a>
+                        </div>
+                    </div>
+                    <div class="order-card order-card--toggle order-card--orange">
+                        <button class="btn order-card__header order-card__toggle">
+                            <span class="btn order-card__toggle-icon">
+                                Toggle
+                            </span>
+                            <div class="order-card__title">
+                                order #12345
+                            </div>
+                        </button>
+                        <div class="order-card__info">
+                            <ul class="order-card__meta">
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order delivery date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        tracking number
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1234-2345-7645
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        adress
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1311 MERRIAM AVE BRONX NY 10452-2656 USA
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="order-card__total">
+                                <div class="order-card__total-title">
+                                    List
+                                </div>
+                                <ul class="order-card__products">
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee light
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            2 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div class="order-card__subtotal">
+                                    <span>total</span>
+                                    <span>54.96$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-card__footer">
+                            <a href="#" class="twobean-btn order-card__reorder">
+                                Reorder
+                                <svg>
+                                    <use href="/img/icons/sprite.svg#arrow-right"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="order-card__feedback">
+                                Leave feedback
+                            </a>
+                        </div>
+                    </div>
+                    <div class="order-card order-card--toggle order-card--black">
+                        <button class="btn order-card__header order-card__toggle">
+                            <span class="btn order-card__toggle-icon">
+                                Toggle
+                            </span>
+                            <div class="order-card__title">
+                                order #12345
+                            </div>
+                        </button>
+                        <div class="order-card__info">
+                            <ul class="order-card__meta">
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order delivery date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        tracking number
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1234-2345-7645
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        adress
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1311 MERRIAM AVE BRONX NY 10452-2656 USA
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="order-card__total">
+                                <div class="order-card__total-title">
+                                    List
+                                </div>
+                                <ul class="order-card__products">
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee light
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            2 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div class="order-card__subtotal">
+                                    <span>total</span>
+                                    <span>54.96$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-card__footer">
+                            <a href="#" class="twobean-btn order-card__reorder">
+                                Reorder
+                                <svg>
+                                    <use href="/img/icons/sprite.svg#arrow-right"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="order-card__feedback">
+                                Leave feedback
+                            </a>
+                        </div>
+                    </div>
+                    <div class="order-card order-card--toggle order-card--green">
+                        <button class="btn order-card__header order-card__toggle">
+                            <span class="btn order-card__toggle-icon">
+                                Toggle
+                            </span>
+                            <div class="order-card__title">
+                                order #12345
+                            </div>
+                        </button>
+                        <div class="order-card__info">
+                            <ul class="order-card__meta" style="display: none;">
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order delivery date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        tracking number
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1234-2345-7645
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        adress
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1311 MERRIAM AVE BRONX NY 10452-2656 USA
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="order-card__total">
+                                <div class="order-card__total-title">
+                                    List
+                                </div>
+                                <ul class="order-card__products">
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee light
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            2 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div class="order-card__subtotal">
+                                    <span>total</span>
+                                    <span>54.96$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-card__footer">
+                            <a href="#" class="twobean-btn order-card__reorder">
+                                Reorder
+                                <svg>
+                                    <use href="/img/icons/sprite.svg#arrow-right"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="order-card__feedback">
+                                Leave feedback
+                            </a>
+                        </div>
+                    </div>
+                    <div class="order-card order-card--toggle">
+                        <button class="btn order-card__header order-card__toggle">
+                            <span class="btn order-card__toggle-icon">
+                                Toggle
+                            </span>
+                            <div class="order-card__title">
+                                order #12345
+                            </div>
+                        </button>
+                        <div class="order-card__info">
+                            <ul class="order-card__meta" style="display: none;">
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        order delivery date
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        January 12, 2024
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        tracking number
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1234-2345-7645
+                                    </span>
+                                </li>
+                                <li class="order-card__meta-item">
+                                    <span class="order-card__meta-item-title">
+                                        adress
+                                    </span>
+                                    <span class="order-card__meta-item-subtitle">
+                                        1311 MERRIAM AVE BRONX NY 10452-2656 USA
+                                    </span>
+                                </li>
+                            </ul>
+                            <div class="order-card__total">
+                                <div class="order-card__total-title">
+                                    List
+                                </div>
+                                <ul class="order-card__products">
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee light
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            2 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                    <li class="order-card__product-item">
+                                        <span class="order-card__product-item-name">
+                                            Drip coffee medium dark
+                                        </span>
+                                        <span class="order-card__product-item-qty">
+                                            1 pcs
+                                        </span>
+                                    </li>
+                                </ul>
+                                <div class="order-card__subtotal">
+                                    <span>total</span>
+                                    <span>54.96$</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-card__footer">
+                            <a href="#" class="twobean-btn order-card__reorder">
+                                Reorder
+                                <svg>
+                                    <use href="/img/icons/sprite.svg#arrow-right"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="order-card__feedback">
+                                Leave feedback
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+    <div class="container">
+       <div class="footer__inner">
+            <div class="footer__top">
+                <a href="#" class="logo footer__logo">
+                    <img src="img/footer-logo.png" alt="" class="logo__img footer__logo-img">
+                    <img src="img/footer-logo-mobile.png" alt="" class="logo__img footer__logo-img footer__logo-img-mobile">
+                </a>
+                <nav class="nav footer__nav">
+                    <ul class="nav__list footer__nav-list">
+                        <li class="nav__item footer__nav-item">
+                            <a href="#" class="nav__link footer__nav-link">
+                                Products
+                            </a>
+                        </li>
+                        <li class="nav__item footer__nav-item">
+                            <a href="#" class="nav__link footer__nav-link">
+                                Business
+                            </a>
+                        </li>
+                        <li class="nav__item footer__nav-item">
+                            <a href="#" class="nav__link footer__nav-link">
+                                Events
+                            </a>
+                        </li>
+                        <li class="nav__item footer__nav-item">
+                            <a href="#" class="nav__link footer__nav-link">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__contacts">
+                    <div class="footer__contacts-title">
+                        GET IN TOUCH
+                    </div>
+                    <ul class="social footer__social">
+                        <li class="social__item footer__social-item">
+                            <a class="social__link footer__social-link" href="#">
+                                Instagram
+                                <svg>
+                                    <use href="/img/icons/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item footer__social-item">
+                            <a class="social__link footer__social-link" href="#">
+                                Facebook
+                                <svg>
+                                    <use href="/img/icons/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="tel:4257543205" class="footer__phone">
+                        (425) 754 3205
+                    </a>
+                    <a href="mailto:one@twobean.coffee" class="footer__email">
+                        one@twobean.coffee
+                    </a>
+                    <address class="footer__address">
+                        11-12 30th Drive, PH822W, New York, NY, 11102
+                    </address>
+                </div>
+                <div class="footer__copyright">
+                    Copyright © 2024 twobean.cofee. All Rights Reserved.
+                </div>
+            </div>
+       </div>
+    </div>
+</footer>
+
+<script src="js/libs/swiper-bundle.min.js"></script>
+<script src="js/libs/fancybox.umd.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
